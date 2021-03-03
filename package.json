@@ -55,5 +55,14 @@
       "pre-push": "npm run lint"
     }
   },
+  "nyc": {
+    "reporter": [
+      "text",
+      "html"
+    ],
+    "exclude": [
+      "src/tests"
+    ]
+  },
   "dependencies": {}
 }
