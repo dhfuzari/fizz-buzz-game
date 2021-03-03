@@ -52,13 +52,20 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run lint"
+      "pre-push": "npm run lint && npm run test:coverage"
     }
   },
   "nyc": {
+    "check-coverage": true,
+    "functions": 80,
+    "lines": 80,
     "reporter": [
       "text",
       "html"
+    ],
+    "all": true,
+    "include": [
+      "src/**/*.js"
     ],
     "exclude": [
       "src/tests"
