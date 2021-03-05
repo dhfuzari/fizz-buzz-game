@@ -79,6 +79,7 @@ This is what the output will look like:
 - [VanillaJS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Mocha](https://mochajs.org/)
 - [ChaiJS](https://www.chaijs.com/)
+- [Istanbul](https://istanbul.js.org/)
 
 <!-- GETTING STARTED -->
 
@@ -90,15 +91,15 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/dhfuzari/fizz-buzz-game
    ```
 2. Install NPM packages
-   ```sh
+   ```JS
    npm install
    ```
-3. Run the command 'watch' to start the development process
+3. Run the command 'start' to start the development process
    ```JS
-   npm run watch
+   npm start
    ```
 
 <!-- USAGE EXAMPLES -->
@@ -149,13 +150,6 @@ Project Link: [https://github.com/dhfuzari/fizz-buzz-game](https://github.com/dh
 - [Img Shields](https://shields.io)
 - [Choose an Open Source License](https://choosealicense.com)
 - [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [Loaders.css](https://connoratherton.com/loaders)
-- [Slick Carousel](https://kenwheeler.github.io/slick)
-- [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-- [Sticky Kit](http://leafo.net/sticky-kit)
-- [JVectorMap](http://jvectormap.com)
-- [Font Awesome](https://fontawesome.com)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -171,5 +165,5 @@ Project Link: [https://github.com/dhfuzari/fizz-buzz-game](https://github.com/dh
 [license-shield]: https://img.shields.io/github/license/dhfuzari/fizz-buzz-game.svg?style=for-the-badge
 [license-url]: https://github.com/dhfuzari/fizz-buzz-game/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/dhfuzari
 [product-screenshot]: images/screenshot.png
